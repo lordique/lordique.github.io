@@ -85,13 +85,16 @@
                         <small>Duolingo Coding Challenge</small>
                     </h2></div><center>
 					<p>Please type text into both boxes. The solver will determine if the two inputs are anagrams, ignoring any non-alphanumeric characters or differences in capitalization.</p>
-					<form id ="name">
+					<form id ="name" target="frame">
 						Input 1: <input type="text" name="input1"><br><br>
 						Input 2: <input type="text" name="input2"><br><br>
 						<input type="submit" onclick="anagram()" value="Check">
 					</form>
 					</center>
                     <hr>
+					<center><h2><small id='s1'></small></h2>
+					<h2 id='ans'></h2>
+					<h2><small id='s2'></small></h2></center>
                 </div>
             </div>
         </div>
@@ -116,5 +119,5 @@
     <script src="js/bootstrap.min.js"></script>
 
 </body>
-
+<iframe name="frame"></iframe>
 </html>

@@ -23,10 +23,15 @@ function anagram() {
 							}
 						}
 						
+						document.getElementById('s1').innerHTML = "'"+s1+"'";
+						document.getElementById('s2').innerHTML = "'"+s2+"'";
+						
 						if(is_anagram){
-							alert("'"+s1.concat("' is an anagram of '").concat(s2)+"'");
+							
+							document.getElementById('ans').innerHTML = "is an anagram of";
+
 						}else{
-							alert(s1.concat(" is NOT an anagram of ").concat(s2));
+							document.getElementById('ans').innerHTML = "is NOT an anagram of";
 						}
 							
 						
