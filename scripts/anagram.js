@@ -24,9 +24,9 @@ function anagram() {
 						}
 						
 						if(is_anagram){
-							alert(s1.concat(" is an anagram of ").concat(s2));
+							alert("'"+s1.concat("' is an anagram of '").concat(s2)+"'");
 						}else{
-							alert(s1.concat(" is not an anagram of ").concat(s2));
+							alert(s1.concat(" is NOT an anagram of ").concat(s2));
 						}
 							
 						
